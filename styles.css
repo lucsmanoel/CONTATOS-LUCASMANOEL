@@ -15,17 +15,23 @@ a{
 }
 
 body{
-  background:var(--bg-color);
+  /* background:var(--bg-color); */
+  background-image: url(/imagens/pexels-pixabay-531880.jpg);
   }
+
 .card{
   
   text-align: center;/*tudo dentro do card sera alinhado ao centro*/
   list-style: none;
   padding-top:20px;/*distancia do top até a imagem*/
-  width:300px;
+  width:400px;
+  
   margin:60px auto;
-  background-color:#43097c;
+   background-color:#892ce6; 
   color: aliceblue;
+  
+  border-radius: 10px;
+  padding-bottom: 35px;
 }
 
 img{
@@ -50,7 +56,7 @@ img{
     display:flex;
     align-items: center;
     justify-content: center;/*justifica conteudo e o leva ao centro*/
-    background-color: #cc9500;
+    background-color: #0eb17b;
     margin: 10px;
     color:white;
     font-family: 'roboto';
@@ -59,9 +65,10 @@ img{
     text-transform: uppercase;
     transition: background 400ms;
     
+    
   }
-  ul li a :hover{
-    background-color:blue;
+ a:hover{
+    background-color:rgb(77, 77, 245);
 
   }
   footer :hover{
