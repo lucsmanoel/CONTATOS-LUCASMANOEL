@@ -16,7 +16,7 @@ a{
 
 body{
   /* background:var(--bg-color); */
-  background-image: url(/imagens/pexels-pixabay-531880.jpg);
+  background-image: url(./imagens/pexels-pixabay-531880.jpg);
   }
 
 .card{
