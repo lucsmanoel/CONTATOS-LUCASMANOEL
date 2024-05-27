@@ -7,7 +7,7 @@
 
 
 
-[Clique aqui para acessar]() 
+[Clique aqui para acessar](https://lucsmanoel.github.io/ENCURTA-LINKS-LUCASM/) 
 ## Tecnologias 
 - HTML
 - CSS
