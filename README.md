@@ -7,11 +7,11 @@
 
 
 
-[Clique aqui para acessar](https://lucsmanoel.github.io/maratona-explorer-2/
-) 
+[Clique aqui para acessar]() 
 ## Tecnologias 
 - HTML
 - CSS
+- JAVASCRIPT
 - GIT & GITHUB
 
 # Contato

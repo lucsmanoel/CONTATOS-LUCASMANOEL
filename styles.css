@@ -1,83 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Roboto:ital,wght@0,400;1,300;1,400&display=swap');
 
-
-*{
+* {
   padding: 0;
-  margin:0;                                                                 
+  margin: 0;
   font-family: 'Roboto', sans-serif;
 }
-html{
+
+html {
   --bg-color: #43097c;
 }
-a{
-  text-decoration: none;
 
+a {
+  text-decoration: none;
 }
 
-body{
-  /* background:var(--bg-color); */
+body {
   background-image: url(./imagens/pexels-pixabay-531880.jpg);
-  }
+}
 
-.card{
-  
-  text-align: center;/*tudo dentro do card sera alinhado ao centro*/
+.card {
+  text-align: center;
   list-style: none;
-  padding-top:20px;/*distancia do top até a imagem*/
-  width:400px;
-  
-  margin:60px auto;
-   background-color:#892ce6; 
+  padding-top: 20px;
+  width: 400px;
+  margin: 60px auto;
+  background-color: #892ce6;
   color: aliceblue;
-  
   border-radius: 10px;
   padding-bottom: 35px;
 }
 
-img{
-  width:150px;
+img {
+  width: 150px;
   height: 150px;
   padding: 3.7px;
   border: #cc9500 solid 4px;
   border-radius: 50%;
-  color:#cc9500;
-  }
-  ul{
-    list-style: none;
-    margin-bottom: 48px 0;
-  }
-  h1{
-    margin-top:24px;
-    margin-bottom: 8px;
-  }
-  ul li a{
-    height: 53px;
-    padding: 0px;
-    display:flex;
-    align-items: center;
-    justify-content: center;/*justifica conteudo e o leva ao centro*/
-    background-color: #0eb17b;
-    margin: 10px;
-    color:white;
-    font-family: 'roboto';
-    font-size: 118;
-    border-radius: 15px;
-    text-transform: uppercase;
-    transition: background 400ms;
-    
-    
-  }
- a:hover{
-    background-color:rgb(77, 77, 245);
+  color: #cc9500;
+  transition: border-color 0.4s;
+}
 
-  }
-  footer :hover{
-    opacity: 1;
-  }
-  footer{
-    font-weight: 500;
-    font-size: 15px;
-    opacity: 0.9;
-    transition: opacity 400ms;
-  }
-  
+img.clicked {
+  border-color: green;
+}
+
+h1 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  height: 53px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0eb17b;
+  margin: 10px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+footer {
+  font-weight: 500;
+  font-size: 15px;
+  opacity: 0.9;
+  transition: opacity 400ms;
+}
